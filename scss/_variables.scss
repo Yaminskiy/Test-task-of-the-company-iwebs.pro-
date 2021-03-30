@@ -1,0 +1,27 @@
+$primary-font: 'Calibri', sans-serif;
+$title-font: 'Calibri', sans-serif;
+
+$primary-color: rgb(20, 20, 25);
+$primary-color2: #854fee;
+$title-color: rgb(20, 20, 25);
+$text-color: #777777;
+
+@font-face {
+    font-family: 'Calibri';
+    src: local('Calibri Regular'), local('Calibri-Regular'),
+        url('../fonts/Calibri.woff2') format('woff2'),
+        url('../fonts/Calibri.woff') format('woff'),
+        url('../fonts/Calibri.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'San Francisco(SF UI)';
+    src: local('San Francisco(SF UI) Display Regular'), local('San-Francisco(SF-UI)-Display-Regular'),
+        url('../fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Regular.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
